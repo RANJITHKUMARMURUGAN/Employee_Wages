@@ -1,5 +1,6 @@
 class Emp_check{
 	public static void main(String args[]){
+		//random calculation//
 		int isFull=1;
 		double result=Math.floor(Math.random()*10)%2;
 		if(isFull==result){
