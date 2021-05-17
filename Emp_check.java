@@ -4,10 +4,10 @@ class Emp_check{
 		int isFull=1;
 		double check=Math.floor(Math.random()*10)%2;
 		int per_hour=20;
-		int one_day=8;
+		int part_time=8;
 		if(isFull==check){
 		System.out.println("the employee is present"+" "+check);
-		int result=per_hour*one_day;
+		int result=per_hour*part_time;
 		System.out.println("the employee hours is "+" "+result);
 		}
 		else{
